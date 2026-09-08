@@ -31,7 +31,7 @@ safety_settings = [
     {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
 ]
 
-text_model = genai.GenerativeModel('gemini-1.5-flash', safety_settings=safety_settings)
+text_model = genai.GenerativeModel('gemini-2.5-flas', safety_settings=safety_settings)
 
 # Bot Ayarları
 intents = discord.Intents.default()
