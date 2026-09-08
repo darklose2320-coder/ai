@@ -21,7 +21,7 @@ def keep_alive():
     t.start()
 
 # Gemini API Yapılandırması (Sansürleri esneten güvenlik ayarlarıyla)
-genai.configure(api_key=os.getenv("AQ.Ab8RN6LRB9g7yQMO9ig1f2GiAU00Ch2Fea2io94SxUZLyAYd7g"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 # Güvenlik filtrelerini en aza indiren (sansürsüz deneyim için) ayar
 safety_settings = [
